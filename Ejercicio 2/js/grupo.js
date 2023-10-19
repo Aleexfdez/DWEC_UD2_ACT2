@@ -1,21 +1,21 @@
 // Cada grupo almacenará el código de grupo y el número de alumnos.
 
-export default class Grupo{
-    constructor(codigoGrupo, numeroAlumnos){
+export default class Grupo {
+    constructor(codigoGrupo, numeroAlumnos) {
         this._codigoGrupo = codigoGrupo;
         this._numeroAlumnos = numeroAlumnos;
     }
-    get CodigoGrupo(){
+    get CodigoGrupo() {
         return this._codigoGrupo;
     }
-    get NumeroAlumnos(){
+    get NumeroAlumnos() {
         return this._numeroAlumnos;
     }
 
-    set CodigoGrupo(codigoGrupo){
-         this._codigoGrupo =codigoGrupo;
+    set CodigoGrupo(codigoGrupo) {
+        this._codigoGrupo = codigoGrupo;
     }
-    set NumeroAlumnos(numeroAlumnos){
-         this._numeroAlumnos = numeroAlumnos;
+    set NumeroAlumnos(numeroAlumnos) {
+        this._numeroAlumnos = numeroAlumnos;
     }
 }

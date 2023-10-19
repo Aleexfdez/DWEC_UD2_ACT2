@@ -1,11 +1,11 @@
-function separarNumeros(){
-    
+function separarNumeros() {
+
     var numero = 1;
     var guardarNumeros = [];
 
     parseInt(numero);
-    for(var i=0; i<arguments.length;i++){
-        if(typeof(arguments[i])==typeof(numero)){
+    for (var i = 0; i < arguments.length; i++) {
+        if (typeof (arguments[i]) == typeof (numero)) {
             guardarNumeros.push(arguments[i]);
         }
     }
