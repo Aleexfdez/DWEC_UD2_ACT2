@@ -1,3 +1,4 @@
+// Cada grupo almacenará el código de grupo y el número de alumnos.
 
 export default class Grupo{
     constructor(codigoGrupo, numeroAlumnos){
