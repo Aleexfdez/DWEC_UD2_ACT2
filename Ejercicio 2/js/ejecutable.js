@@ -8,7 +8,7 @@ var grupo3 = new Grupo("G003", 20);
 var grupo4 = new Grupo("G004", 25);
 
 // Conocer el código del instituto.
-console.log("El código del " + instituto1._nombre + " es -> " + instituto1.CodigoInstituto);
+console.log("El código del " + instituto1._nombreInstituto + " es -> " + instituto1.CodigoInstituto);
 
 //  Conocer el número total de alumnos del centro.
 console.log("Total Nº de alumnos en " + instituto1._nombreInstituto + " -> " + instituto1.totalAlumnosInstituto())
